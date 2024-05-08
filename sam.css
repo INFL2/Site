@@ -1,0 +1,132 @@
+/* (*) - обращаемся ко всем объектам*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ height: 10000px;
+}
+
+
+#header {
+  height: 70px;
+  text-align: center;
+  background: #000000de;
+  
+}
+
+/*abcolute - абсолютная позиция fixed - вщ никуда не уходит*/
+#envato {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-color: #8e379a;
+  box-sizing: border-box;
+  margin: 0;
+  height: 53px;
+  width: 300px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  animation: intheanimalworld linear 10s infinite;
+}
+
+#envato :hover{
+  animation-play-state: paused;
+}
+
+@keyframes intheanimalworld {
+  form  {
+    background-color: #8e379a;
+  }
+
+  25% {
+    background-color: rgb(94, 27, 201);
+  }
+
+  50% {
+    background-color: #000000de;
+  }
+
+  75% {
+    background-color: rgb(52, 23, 155);
+  }
+
+  to {
+background-color: #8e379a;
+
+  }
+}
+.envato {
+  color: #fff;
+  font-size: 30px;
+
+}
+
+.market {
+  color: #6f9a37;
+  font-size: 30px;
+}
+
+
+#pay {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  color: #fff;
+  position: fixed;
+  right: 25px;
+  top: 18px;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #82b440;
+  box-sizing: border-box;
+  margin: 0;
+  height: 40px;
+  width: 165px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  animation: inthebirdworld 5s linear 3s infinite;
+  animation-name: inthebirdworld;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+
+@keyframes inthebirdworld {
+  form  {
+    background-color: #6f9a37;
+  }
+
+  25% {
+    background-color: rgb(168, 84, 147);
+    transform: scale(1.2);
+  }
+
+  50% {
+    background-color: rgb(24, 17, 17);
+    transform: scale(1.3);
+  }
+
+  75% {
+    background-color: rgb(69, 59, 126);
+    transform: scale(1.2);
+  }
+
+  to {
+background-color: #6f9a37;
+
+  }
+}
